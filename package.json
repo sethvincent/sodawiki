@@ -1,0 +1,28 @@
+{
+  "name": "sodawiki",
+  "version": "0.0.1",
+  "description": "helper for using the socrata and localwiki apis to import content into a localwiki site.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sethvincent/sodawiki.git"
+  },
+  "author": {
+    "name": "seth vincent",
+    "email": "sethvincent@gmail.com",
+    "url": "http://sethvincent.com"
+  },
+  "keywords": [
+    "localwiki",
+    "wiki",
+    "socrata",
+    "data",
+    "api",
+    "client"
+  ],
+  "license": "BSD",
+  "dependencies": {
+    "node-localwiki-client": "~0.2.0",
+    "sodajs-socrata": "~0.1.0"
+  }
+}
